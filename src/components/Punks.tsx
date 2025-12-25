@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Punks() {
   return (
-    <section className="bg-black text-white py-32">
+    <section id="punks" className="bg-black text-white py-32">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-24 md:grid-cols-2">
         <h1 className="text-4xl font-bold">Meet the Punks</h1>
 

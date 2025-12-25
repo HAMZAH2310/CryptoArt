@@ -3,7 +3,7 @@ import CircleNumber from "./circle/CircleCard";
 
 export default function GetPunk() {
   return (
-    <section className="bg-black text-white py-24 pb-32">
+    <section className="bg-black text-white py-32">
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-start gap-12 px-24 md:grid-cols-2">
 
         <h1 className="text-4xl font-medium">
