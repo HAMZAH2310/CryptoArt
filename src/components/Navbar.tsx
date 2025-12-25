@@ -30,7 +30,7 @@ export default function Navbar() {
           <ul className="flex gap-8">
             <li><Link href="#punks">About</Link></li>
             <li><Link href="/">Collection</Link></li>
-            <li><Link href="/">FAQs</Link></li>
+            <li><Link href="#FAQ">FAQs</Link></li>
           </ul>
 
           <ConnectButton.Custom>
@@ -79,7 +79,7 @@ export default function Navbar() {
               );
             }}
           </ConnectButton.Custom>
-          
+
           <Image
             src="/assets/images/twitter.png"
             width={40}

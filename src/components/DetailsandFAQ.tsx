@@ -1,6 +1,6 @@
 export default function DetailsandFAQ(){
   return(
-    <section className="bg-black text-white pb-32">
+    <section id="FAQ" className="bg-black text-white pb-32">
       <h1 className="text-4xl font-bold text-left pl-75 mb-12">Details and FAQ</h1>
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-start gap-12 px-24 md:grid-cols-2">
         <h1 className="text-xl font-medium">
